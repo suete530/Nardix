@@ -1,117 +1,119 @@
-
 <!DOCTYPE html>
 <html>
-    <!--mag deli makita-->
 <head>
-        
-       <title> Bai Nanard Project </title> 
-         
-    <!--para sa CS languanges-->
-          <style>
-       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Nanard Project</title> 
 
-    /*para center tanan h1*/
-          h1 {text-align:center;}
-          
-    /*para sa color background */
-          body {background-color:black}
-          
-    /*para sa color text*/
-          body {color: white }
-          
-    /*para sa color orrange hub*/
-          .orange{ color:orange; }
-          
-          
-    /*para center sa clickable words*/  
-          p{text-align: center}
-        p{color:  }
-        
-   /*para  color sa  clickable*/      
-       .clickable{
-         color: orange;
-       }
-       
-      /*para center button*/ 
-        button{
-          display: block;
-          margin: auto;
+    <style>
+
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
-  
-        
-            
-          </style>
-       
-</head> 
 
+        h1 {
+            text-align: center;
+            font-size: 40px; /* pinalaki */
+        }
 
+        h2 {
+            text-align: center;
+            font-size: 22px;
+        }
 
-   <!--mga makita-->       
-<body> 
-   <!--para enter -->       
-       <br>
-   <!--para separate pornhub nya color orange -->       
-       <h1>
-          Porn<span class="orange">hub</span> 
-       </h1> 
-       
-       
-   <!-- para center text -->       
-      <h1 style="text-align: center;">This is an adult website</h1>
-      
-      
-       
-   <!--para sa click2 nga feature-->     
-        <button
-        onclick="firstbutton()">Notice to Users
-        </button>
-         
-   <!--para display imag human click  -->           
-        <script>
-         function  firstbutton() {
+        p {
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        .orange {
+            color: orange;
+        }
+
+        .clickable {
+            color: orange;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button {
+            display: block;
+            margin: 15px auto;
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: orange;
+            color: black;
+            width: 80%; /* para malapad sa phone */
+            max-width: 300px;
+        }
+
+        button:hover {
+            background-color: darkorange;
+        }
+
+        h6 {
+            text-align: center;
+            font-size: 12px;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>
+        Porn<span class="orange">hub</span> 
+    </h1> 
+
+    <h2>This is an adult website</h2>
+
+    <button onclick="firstbutton()">Notice to Users</button>
+
+    <script>
+        function firstbutton() {
             alert("ikaw owagan kyka dong undangi nana samut naka tabaranza,panio undangi nana bisyo ninyo!!!");
-          } 
-        </script>
-      
-      
-      
-      <p style="text-align: center;">This website contains age-restricted materials including nudity and explicit depictions of sexual activity. By entering, you affirm that you are at least 18 years of age or the age of majority in the jurisdiction you are accessing the website from and you consent to viewing sexually explicit content. </p>
-      
-      <p>
-          <!--clickable nga word -->     
-         <span class="clickable"onclick="showAlert()">Notice To Law Inforcement </span>
-      </p>  
-      
-      <script> 
-      function showAlert(){ alert("ayaw palabi ana ka owagan nimo wa ka!!")}
-      </script>
-      
-      <button onclick="thirdbutton()">I Am 18 or Older-Enter  </button>
-      </button>
-           <script>
-             function thirdbutton(){
-               alert("ITS A PRANK OWAGAN INATAY!!");
-             }
-            
-           </script>
-           
-      <button onclick="secondbutton()"> I am under 18-exit </button>
-         
-           <script>
-             function secondbutton(){
-               alert("Hawa deri yawa mana owagana man ka anga ka!!");
-             }
-           </script>
-       </button>   
-       
-       <h6>Warning: this website is just educational purpose and  experimentation by developer who names "Bainanard!!  CREDITS TO PORNHUB.COM</h6>
-    
-      
-        
+        }
+    </script>
+
+    <p>
+        This website contains age-restricted materials including nudity and explicit depictions of sexual activity.
+    </p>
+
+    <p>
+        <span class="clickable" onclick="showAlert()">Notice To Law Enforcement</span>
+    </p>  
+
+    <script> 
+        function showAlert(){
+            alert("ayaw palabi ana ka owagan nimo wa ka!!")
+        }
+    </script>
+
+    <button onclick="thirdbutton()">I Am 18 or Older - Enter</button>
+
+    <script>
+        function thirdbutton(){
+            alert("ITS A PRANK OWAGAN INATAY!!");
+        }
+    </script>
+
+    <button onclick="secondbutton()">I am under 18 - exit</button>
+
+    <script>
+        function secondbutton(){
+            alert("Hawa deri yawa mana owagana man ka anga ka!!");
+        }
+    </script>
+
+    <h6>
+        Warning: this website is just educational purpose and experimentation by developer.
+    </h6>
+
 </body>
 </html>
-
-
-
-
-
